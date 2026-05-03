@@ -1,56 +1,25 @@
-\# 🔐 Image Encryption Project
+## 🚀 Features
 
+- Multi-layer encryption (ACM + SVD + Chaos + Diffusion)
+- High randomness (Entropy close to ideal value ~8)
+- Uniform pixel distribution (Chi-Square test)
+- Strong resistance to differential attacks (NPCR & UACI)
+- Low pixel correlation after encryption
+- Accurate decryption (high SSIM)
 
+---
 
-\## 📌 Overview
+## 📊 Security Analysis
 
-This project implements image encryption using:
+This system is evaluated using multiple cryptographic metrics:
 
-\- Arnold Cat Map (ACM)
+- **Entropy** → Measures randomness of encrypted image  
+- **Chi-Square Test** → Checks uniform distribution of pixel values  
+- **NPCR & UACI** → Resistance against differential attacks  
+- **SSIM** → Structural similarity (Decryption accuracy)  
+- **Correlation Coefficient** → Pixel independence analysis  
 
-\- SVD (Singular Value Decomposition)
-
-\- Chaotic Sine Map
-
-\- XOR Operation
-
-\- Diffusion Layer
-
-
-
-\## 🔁 Pipeline
-
-Original → ACM → SVD → Chaos XOR → Diffusion → Encrypted
-
-
-
-\## 🔓 Decryption
-
-Reverse operations applied to recover original image.
-
-
-
-\## 📊 Metrics Used
-
-\- Entropy
-
-\- Chi-Square Test
-
-
-
-\## ▶️ How to Run
-
-
-
-1\. Install dependencies:
-
-pip install -r requirements.txt
-
-
-
-2\. Run:
-
-python main.py
+---
 
 
 
@@ -74,4 +43,18 @@ python main.py
 
 ### Correlation
 ![Correlation](outputs/correlation.png)
+
+
+---
+
+## 🧠 Key Insight
+
+The combination of chaotic maps and SVD significantly improves:
+- Security (randomness + diffusion)
+- Resistance to statistical & differential attacks
+- Reversibility with minimal information loss
+
+---
+
+## 📁 Project Structure
 
