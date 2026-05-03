@@ -54,9 +54,24 @@ python main.py
 
 
 
-\## 📁 Output
+## 📊 Results
 
-\- Encrypted Image
+### Encrypted + Decrypted
+![Enc-Dec](outputs/ori-enc-dec.png)
 
-\- Decrypted Image
+### Histogram
+![Histogram](outputs/histogram.png)
+
+### Chi-Square
+![Chi](outputs/chi-square.png)
+
+### NPCR & UACI
+![NPCR](outputs/NPCR&UACI.png)
+
+### SSIM
+![SSIM](outputs/SSIM1.png)
+![SSIM](outputs/SSIM2.png)
+
+### Correlation
+![Correlation](outputs/correlation.png)
 
